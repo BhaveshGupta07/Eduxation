@@ -1,0 +1,286 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home
+{% endblock title %}
+
+<header>
+  <div class="container-fluid p-0">
+    {% block header %}
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h1>EDUXATION</h1>
+          <h2>Learn Your
+            Favorite Course
+            From Our Selected Playlists</h2>
+        </div>
+        <div class="col-md-5 col-sm-12  h-25">
+          <img src="{% static 'img/banner/edu_ilastration.png' %}" alt="Book" />
+        </div>
+      </div>
+    </div>
+    {% endblock header %}
+  </div>
+</header>
+
+
+{% block body %}
+<main>
+  <section class="section-1">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="pray">
+            <img src="{% static 'img/educate.svg' %}" alt="Pray" class="" />
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+            <h1>EduXation's Vision</h1>
+            <p class="pt-4">
+              Our vision is to develop well rounded, confident and responsible individuals
+              who aspire to achieve their full potential. We will do this by providing a welcoming,
+              happy, safe, and supportive learning environment in which everyone is equal and all achievements are celebrated.
+            </p>
+            <p>
+              We strive to support this environment by building a more inclusive curriculum, addressing a range of learning styles,
+              offering a wde array of diversity efforts and programs, and by participating in the wider community.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2 container-fluid p-0">
+    <div class="cover">
+      <div class="overlay"></div>
+      <div class="content text-center">
+        <h1>Some Features That Made Us Unique</h1>
+        <p>
+          Why choose us?
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid text-center">
+      <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+        <div class="rect">
+          <h1>Free Services</h1>
+          <p>For all</p>
+        </div>
+        <div class="rect">
+          <h1>By The<br> Community</h1>
+          <p>To The Community</p>
+        </div>
+        <div class="rect">
+          <h1>Open</h1>
+          <p>Source For Development</p>
+        </div>
+        <div class="rect">
+          <h1>Easy</h1>
+          <p>interface</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="purchase text-center">
+      <h1>Ezplore Whatever You LIKE </h1>
+      <p>
+        WE Got all of the things a learner wants.
+      </p>
+      <div class="cards">
+        <div class="d-flex flex-row justify-content-center flex-wrap">
+          <div class="card">
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">PLAYLISTS</h5>
+              </div>
+              <p class="card-text">
+                Will Let you Learn without let you search for the best 
+              </p>
+              <div class="pricing">
+                <h1></h1>
+                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">PLAYLISTS</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">QUIZES</h5>
+              </div>
+              <p class="card-text">
+                Will Let you test What you have Learned and let you improve
+              </p>
+              <div class="pricing">
+                <h1></h1>
+                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">QUIZES</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="title">
+                <h5 class="card-title">PAPERS</h5>
+              </div>
+              <p class="card-text">
+                Will let you help to find the Last Year Question papers
+              </p>
+              <div class="pricing">
+                <h1></h1>
+                <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">PAPERS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-3 container-fluid p-0 text-center">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Download Our App for all Platform</h1>
+        <p>
+         Will add the Application for the website in our Future projects Soonnnnnn.....
+        </p>
+      </div>
+    </div>
+    <div class="platform row">
+      <div class="col-md-6 col-sm-12 text-right">
+        <div class="desktop shadow-lg">
+          <div class="d-flex flex-row justify-content-center">
+            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+            <div class="text text-left">
+              <h3 class="pt-1 m-0">Desktop</h3>
+              <p class="p-0 m-0">On website</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 text-left">
+        <div class="desktop shadow-lg">
+          <div class="d-flex flex-row justify-content-center">
+            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+            <div class="text text-left">
+              <h3 class="pt-1 m-0">On Mobile</h3>
+              <p class="p-0 m-0">On Play Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- carousal -->
+ 
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://source.unsplash.com/1600x400/?education,college" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100" src="https://source.unsplash.com/1600x400/?education" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100" src="https://source.unsplash.com/1600x400/?education,school" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Section 4 -->
+  <section class="section-4">
+    <div class="container text-center">
+      <h1 class="text-dark">Some Famous Quotes </h1>
+      <p class="text-secondary">by Some Famous Personalities</p>
+    </div>
+    <div class="team row ">
+      <div class="col-md-4 col-12 text-center">
+        <div class="card mr-2 d-inline-block shadow-lg">
+          <div class="card-img-top">
+            <img src="{% static 'img/writers/tom.jpg' %}" class="img-fluid border-radius p-4" alt="">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Tom Bodett</h3>
+            <p class="card-text">
+              “The difference between school and life? In school,
+               you're taught a lesson and then given a test. In life, you're given a test that teaches you a lesson.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <div class="card mr-2 d-inline-block shadow">
+                <div class="card-img-top">
+                  <img src="{% static 'img/writers/martin.jpg' %}" class="img-fluid rounded-circle w-50 p-4" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Martin Luther King</h3>
+                  <p class="card-text">
+                    “The function of education is to teach one to think 
+                    intensively and to think critically. Intelligence plus character – that is the goal of true education”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card  d-inline-block mr-2 shadow">
+                <div class="card-img-top">
+                  <img src="{% static 'img/writers/davidMburns.jpg' %}" class="img-fluid rounded-circle w-50 p-4" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">David M. Burns</h3>
+                  <p class="card-text">
+                    “Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability
+                     to learn new things and move forward with your life. Remember that fear always lurks behind perfectionism.”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 text-center">
+        <div class="card mr-2 d-inline-block shadow-lg">
+          <div class="card-img-top">
+            <img src="{% static 'img/writers/Mark.jpg' %}" class="img-fluid border-radius p-4" alt="">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Mark Twain</h3>
+            <p class="card-text">
+              “The secret of getting ahead is getting started. The secret of getting started is breaking your 
+              complex overwhelming tasks into small manageable tasks, and then starting on the first one.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+{% endblock body %}

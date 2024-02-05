@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-centers flex-columns">
+        <h1s id="finalScore"></h1s>
+        <forms>
+          <inputs
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btns"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+        </forms>
+        <a class="btns" href="game.html">wanna try Again?</a>
+        <a class="btns" href="quizes.html">Go Home</a>
+      </div>
+    </div>
+    <script src="js/end.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}About
+{% endblock title %}
+{% block body %}
+   <!-- bradcam_area_start -->
+   <header>
+    <div class="container text-center text-white">
+    
+       <u><h1>ABOUT US </h1></u>
+    </div>
+    
+    </header>
+   <!-- bradcam_area_end -->
+
+<section class="section-1">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="pray">
+            <img src="https://source.unsplash.com/1200x800/?education,online"  alt="Pray" class="" />
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+            <h1>WHY CHOOSE US?</h1>
+            <p class="pt-4">
+              Our vision is to develop well rounded, confident and responsible individuals
+              who aspire to achieve their full potential. We will do this by providing a welcoming,
+              happy, safe, and supportive learning environment in which everyone is equal and all achievements are celebrated.
+            </p>
+            <p>
+              We strive to support this environment by building a more inclusive curriculum, addressing a range of learning styles,
+              offering a wde array of diversity efforts and programs, and by participating in the wider community.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- our_latest_blog_end -->
+
+<section class="section-4">
+    <div class="container text-center">
+      <h1 class="text-dark">OUR TEAM </h1>
+      
+    </div>
+    <div class="team row ">
+      <div class="col-md-4 col-12 text-center">
+        <div class="card mr-2 d-inline-block shadow-lg">
+          <div class="card-img-top">
+            <img src="{% static 'img/team/neeraj.jpg' %}" class="img-fluid border-radius p-4" alt="">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">NEERAJ RAI</h3>
+            <p class="card-text">
+              I am a JIMS BCA 5-m Student.Lead resource manager and handle all the documentation for this project
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-md-4 col-12 text-center">
+        <div class="card mr-2 d-inline-block shadow-lg">
+          <div class="card-img-top">
+            <img src="{% static 'img/team/bhavesh.jpeg' %}" class="img-fluid border-radius p-4" alt="">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">BHAVESH GUPTA</h3>
+            <p class="card-text">
+              I am a JIMS BCA 5-m Student.Lead front-end and back-end developer for this project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock body %}
